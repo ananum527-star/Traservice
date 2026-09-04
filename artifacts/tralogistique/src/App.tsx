@@ -185,7 +185,10 @@ const artStyles: Record<string, string> = {
 };
 
 function Visual({ type, vehicle = false, className }: { type: string; vehicle?: boolean; className?: string }) {
-  return <div className={cx('relative overflow-hidden bg-gradient-to-br', artStyles[type] || 'from-primary via-primary/70 to-secondary', className)}><div className="absolute -right-6 -top-8 size-36 rounded-full border-[18px] border-white/15" /><div className="absolute -bottom-10 -left-8 size-36 rounded-full border-[12px] border-white/10" />{vehicle ? <CarFront className="absolute bottom-4 right-5 size-20 rotate-[-8deg] text-white/80" strokeWidth={1.1} /> : <span className="absolute bottom-4 left-5 font-display text-4xl font-bold text-white/75">{type === 'basket' ? 'T' : type === 'bissap' ? 'B' : '•'}</span>}</div>;
+  const isPhoto = type.startsWith('/');
+  return <div className={cx('relative overflow-hidden bg-gradient-to-br', !isPhoto && (artStyles[type] || 'from-primary via-primary/70 to-secondary'), className)}>
+    {isPhoto ? <><img src={type} alt="" className="absolute inset-0 size-full object-cover" loading="lazy" /><div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-white/5" /></> : <><div className="absolute -right-6 -top-8 size-36 rounded-full border-[18px] border-white/15" /><div className="absolute -bottom-10 -left-8 size-36 rounded-full border-[12px] border-white/10" />{vehicle ? <CarFront className="absolute bottom-4 right-5 size-20 rotate-[-8deg] text-white/80" strokeWidth={1.1} /> : <span className="absolute bottom-4 left-5 font-display text-4xl font-bold text-white/75">{type === 'basket' ? 'T' : type === 'bissap' ? 'B' : '•'}</span>}</>}
+  </div>;
 }
 
 function ProductCard({ product, compact = false }: { product: Product; compact?: boolean }) {
@@ -193,7 +196,7 @@ function ProductCard({ product, compact = false }: { product: Product; compact?:
   const [added, setAdded] = useState(false);
   const price = product.promotion ? product.price * (1 - product.promotion / 100) : product.price;
   return <article className={cx('group overflow-hidden rounded-2xl border border-border bg-card shadow-xs transition duration-300 hover:-translate-y-1 hover:shadow-md', compact && 'flex items-center gap-3 border-0 bg-transparent shadow-none hover:translate-y-0')} data-testid={`card-product-${product.id}`}>
-    <Link href={`/produit/${product.id}`} className={cx('block', compact && 'shrink-0')}><Visual type={product.image} className={cx(compact ? 'size-20 rounded-xl' : 'h-36 sm:h-40', 'transition duration-500 group-hover:scale-[1.03]')} /></Link>
+    <Link href={`/produit/${product.id}`} className={cx('block', compact && 'shrink-0')}><Visual type={product.image} className={cx(compact ? 'size-20 rounded-xl' : 'h-32 sm:h-36', 'transition duration-500 group-hover:scale-[1.03]')} /></Link>
     <div className={cx('p-4', compact && 'p-0')}><div className="mb-2 flex items-start justify-between gap-2"><span className="text-[10px] font-bold uppercase tracking-[.13em] text-muted-foreground">{product.category}</span>{product.promotion && <span className="rounded-full bg-accent/15 px-2 py-1 text-[10px] font-bold text-accent">-{product.promotion}%</span>}</div><Link href={`/produit/${product.id}`} className="font-display font-bold leading-snug hover:text-primary">{product.name}</Link><p className="mt-1 text-xs text-muted-foreground">{product.unit}</p><div className="mt-4 flex items-center justify-between gap-2"><div><span className="font-display text-lg font-bold">{formatFcfa(price)}</span>{product.promotion && <span className="ml-1.5 text-xs text-muted-foreground line-through">{formatFcfa(product.price)}</span>}</div>{!compact && <Button onClick={() => { addToCart(product.id); setAdded(true); setTimeout(() => setAdded(false), 1400); }} className="size-9 rounded-xl px-0" aria-label={`Ajouter ${product.name}`} data-testid={`button-add-${product.id}`}>{added ? <Check className="size-4" /> : <Plus className="size-4" />}</Button>}</div></div>
   </article>;
 }

@@ -23,14 +23,14 @@ export type Promotion = { id: string; title: string; productIds: string[]; disco
 export type CartLine = { productId: string; quantity: number };
 
 export const products: Product[] = [
-  { id: 'riz-local', name: 'Riz local de la vallée', category: 'Épicerie', description: 'Un riz parfumé cultivé dans la vallée du fleuve Sénégal, trié et conditionné à Dakar.', price: 2750, unit: 'sac de 2 kg', stock: 18, availability: true, promotion: 10, image: 'grain' },
-  { id: 'huile-arachide', name: "Huile d'arachide Ndar", category: 'Épicerie', description: 'Pressée avec soin, l’huile d’arachide qui donne du relief aux plats du quotidien.', price: 3400, unit: 'bouteille de 1 L', stock: 31, availability: true, image: 'oil' },
-  { id: 'jus-bissap', name: 'Bissap rouge maison', category: 'Boissons', description: 'Infusion de fleurs d’hibiscus, peu sucrée et préparée chaque matin.', price: 1800, unit: 'bouteille de 1 L', stock: 12, availability: true, promotion: 15, image: 'bissap' },
-  { id: 'cafe-touba', name: 'Café Touba torréfié', category: 'Boissons', description: 'Café Touba aux notes de poivre de Guinée, torréfié en petites quantités.', price: 4200, unit: 'sachet de 250 g', stock: 9, availability: true, image: 'coffee' },
-  { id: 'mangue-sechee', name: 'Mangue séchée de Casamance', category: 'Snacking', description: 'Lamelles de mangue séchées naturellement, sans conservateur.', price: 2500, unit: 'sachet de 150 g', stock: 25, availability: true, image: 'mango' },
-  { id: 'mil-precuit', name: 'Mil précuit Thiès', category: 'Épicerie', description: 'Le mil précuit pour un couscous rapide, généreux et authentique.', price: 2200, unit: 'sac de 1 kg', stock: 22, availability: true, image: 'mil' },
-  { id: 'panier-teranga', name: 'Panier Teranga', category: 'Coffrets', description: 'Un assortiment généreux pour offrir un morceau de Sénégal : bissap, café, mangue et mil.', price: 12500, unit: 'coffret', stock: 7, availability: true, promotion: 12, image: 'basket' },
-  { id: 'savon-karite', name: 'Savon karité & neem', category: 'Maison', description: 'Savon doux fabriqué par une coopérative partenaire à Rufisque.', price: 1500, unit: 'pièce de 120 g', stock: 40, availability: true, image: 'soap' },
+  { id: 'riz-local', name: 'Riz local de la vallée', category: 'Épicerie', description: 'Un riz parfumé cultivé dans la vallée du fleuve Sénégal, trié et conditionné à Dakar.', price: 2750, unit: 'sac de 2 kg', stock: 18, availability: true, promotion: 10, image: '/products/rice.jpg' },
+  { id: 'huile-arachide', name: "Huile d'arachide Ndar", category: 'Épicerie', description: 'Pressée avec soin, l’huile d’arachide qui donne du relief aux plats du quotidien.', price: 3400, unit: 'bouteille de 1 L', stock: 31, availability: true, image: '/products/oil.jpg' },
+  { id: 'jus-bissap', name: 'Bissap rouge maison', category: 'Boissons', description: 'Infusion de fleurs d’hibiscus, peu sucrée et préparée chaque matin.', price: 1800, unit: 'bouteille de 1 L', stock: 12, availability: true, promotion: 15, image: '/products/juice.jpg' },
+  { id: 'cafe-touba', name: 'Café Touba torréfié', category: 'Boissons', description: 'Café Touba aux notes de poivre de Guinée, torréfié en petites quantités.', price: 4200, unit: 'sachet de 250 g', stock: 9, availability: true, image: '/products/coffee.jpg' },
+  { id: 'mangue-sechee', name: 'Mangue séchée de Casamance', category: 'Snacking', description: 'Lamelles de mangue séchées naturellement, sans conservateur.', price: 2500, unit: 'sachet de 150 g', stock: 25, availability: true, image: '/products/mango.jpg' },
+  { id: 'mil-precuit', name: 'Mil précuit Thiès', category: 'Épicerie', description: 'Le mil précuit pour un couscous rapide, généreux et authentique.', price: 2200, unit: 'sac de 1 kg', stock: 22, availability: true, image: '/products/mil.jpg' },
+  { id: 'panier-teranga', name: 'Panier Teranga', category: 'Coffrets', description: 'Un assortiment généreux pour offrir un morceau de Sénégal : bissap, café, mangue et mil.', price: 12500, unit: 'coffret', stock: 7, availability: true, promotion: 12, image: '/products/basket.jpg' },
+  { id: 'savon-karite', name: 'Savon karité & neem', category: 'Maison', description: 'Savon doux fabriqué par une coopérative partenaire à Rufisque.', price: 1500, unit: 'pièce de 120 g', stock: 40, availability: true, image: '/products/soap.jpg' },
 ];
 
 export const vehicles: Vehicle[] = [
