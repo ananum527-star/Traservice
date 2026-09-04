@@ -34,10 +34,10 @@ export const products: Product[] = [
 ];
 
 export const vehicles: Vehicle[] = [
-  { id: 'toyota-corolla', brand: 'Toyota', model: 'Corolla', year: 2022, category: 'Berline', seats: 5, transmission: 'Automatique', fuel: 'Essence', airConditioning: true, pricePerDay: 28000, conditions: ['Permis valide', 'Caution de 150 000 FCFA', 'Minimum 2 jours'], availability: true, images: ['corolla-1', 'corolla-2'] },
-  { id: 'suzuki-ertiga', brand: 'Suzuki', model: 'Ertiga', year: 2021, category: 'Familiale', seats: 7, transmission: 'Manuelle', fuel: 'Essence', airConditioning: true, pricePerDay: 35000, conditions: ['Permis valide', 'Caution de 200 000 FCFA', 'Minimum 2 jours'], availability: true, images: ['ertiga-1', 'ertiga-2'] },
-  { id: 'renault-duster', brand: 'Renault', model: 'Duster', year: 2023, category: 'SUV', seats: 5, transmission: 'Automatique', fuel: 'Diesel', airConditioning: true, pricePerDay: 42000, conditions: ['Permis valide', 'Caution de 250 000 FCFA', 'Minimum 2 jours'], availability: true, images: ['duster-1', 'duster-2'] },
-  { id: 'peugeot-partner', brand: 'Peugeot', model: 'Partner', year: 2020, category: 'Utilitaire', seats: 2, transmission: 'Manuelle', fuel: 'Diesel', airConditioning: false, pricePerDay: 30000, conditions: ['Permis valide', 'Caution de 180 000 FCFA', 'Minimum 1 jour'], availability: false, images: ['partner-1', 'partner-2'] },
+  { id: 'toyota-corolla', brand: 'Toyota', model: 'Corolla', year: 2022, category: 'Berline', seats: 5, transmission: 'Automatique', fuel: 'Essence', airConditioning: true, pricePerDay: 28000, conditions: ['Permis valide', 'Caution de 150 000 FCFA', 'Minimum 2 jours'], availability: true, images: ['/vehicles/corolla.jpg'] },
+  { id: 'suzuki-ertiga', brand: 'Suzuki', model: 'Ertiga', year: 2021, category: 'Familiale', seats: 7, transmission: 'Manuelle', fuel: 'Essence', airConditioning: true, pricePerDay: 35000, conditions: ['Permis valide', 'Caution de 200 000 FCFA', 'Minimum 2 jours'], availability: true, images: ['/vehicles/ertiga.jpg'] },
+  { id: 'renault-duster', brand: 'Renault', model: 'Duster', year: 2023, category: 'SUV', seats: 5, transmission: 'Automatique', fuel: 'Diesel', airConditioning: true, pricePerDay: 42000, conditions: ['Permis valide', 'Caution de 250 000 FCFA', 'Minimum 2 jours'], availability: true, images: ['/vehicles/duster.jpg'] },
+  { id: 'peugeot-partner', brand: 'Peugeot', model: 'Partner', year: 2020, category: 'Utilitaire', seats: 2, transmission: 'Manuelle', fuel: 'Diesel', airConditioning: false, pricePerDay: 30000, conditions: ['Permis valide', 'Caution de 180 000 FCFA', 'Minimum 1 jour'], availability: false, images: ['/vehicles/partner.jpg'] },
 ];
 
 export const initialOrders: Order[] = [

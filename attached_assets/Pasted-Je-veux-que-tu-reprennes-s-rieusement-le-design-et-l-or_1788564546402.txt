@@ -1,0 +1,313 @@
+Je veux que tu reprennes sérieusement le design et l’organisation de toute l’application TRALOGISTIQUE.
+
+Le prototype actuel ne correspond pas à ce que je veux. Il ressemble trop à un prototype basique. Je veux maintenant un VRAI site e-commerce professionnel, moderne, premium et crédible, comparable au niveau de qualité d’un site commercial réel.
+
+IMPORTANT : ne te contente pas de changer les couleurs. Revois la structure visuelle, les espacements, les tailles, les proportions, les cartes, les images, les sections, la navigation et la hiérarchie de toutes les pages.
+
+1. IDENTITÉ VISUELLE
+
+Crée une vraie identité visuelle pour TRALOGISTIQUE.
+
+Nom : TRALOGISTIQUE
+Positionnement : Commerce • Logistique • Transport
+
+Choisis une palette professionnelle, cohérente et moderne adaptée à une entreprise de commerce, logistique et automobile.
+
+Utilise :
+- une couleur principale
+- une couleur secondaire
+- une couleur d’accent pour les CTA
+- des couleurs neutres pour les arrière-plans
+- une couleur cohérente pour les états succès, erreur et avertissement.
+
+Ne mets pas trop de couleurs différentes.
+
+Les couleurs doivent être utilisées de manière cohérente sur toutes les pages.
+
+2. DESIGN GLOBAL
+
+Repenser entièrement le design pour obtenir :
+- interface premium
+- beaucoup plus d’espace blanc
+- excellente hiérarchie visuelle
+- alignements précis
+- marges et espacements cohérents
+- typographie professionnelle
+- boutons modernes
+- cartes élégantes
+- bordures et ombres très légères
+- icônes cohérentes
+- animations discrètes.
+
+Évite l’aspect « dashboard généré automatiquement ».
+
+Chaque page doit sembler avoir été conçue par un vrai UI/UX designer.
+
+3. IMAGES DES PRODUITS
+
+Les images actuelles des produits sont beaucoup trop grandes.
+
+Corrige complètement cela.
+
+Créer des cartes produits compactes et élégantes :
+- image bien proportionnée
+- zone image avec hauteur fixe
+- produit correctement cadré
+- nom
+- prix
+- ancien prix si promotion
+- badge promotion
+- disponibilité
+- bouton ou icône panier.
+
+Les images ne doivent jamais prendre toute la place de la carte.
+
+Utiliser une grille e-commerce professionnelle :
+desktop : plusieurs produits par ligne
+tablette : adaptation automatique
+mobile : 2 produits par ligne lorsque l’espace le permet.
+
+Les proportions doivent rester propres et régulières.
+
+4. PAGE D’ACCUEIL
+
+Repenser complètement la homepage.
+
+Elle doit avoir une vraie structure commerciale :
+
+HEADER
+Logo TRALOGISTIQUE
+Navigation claire
+Recherche
+Compte
+Panier
+CTA éventuel
+
+HERO
+Grande image professionnelle et message clair.
+Présenter l’entreprise et ses principales activités.
+
+Ne pas surcharger le hero.
+
+ACTIVITÉS
+Créer une section permettant de comprendre immédiatement les différentes activités de l’entreprise.
+
+Présenter séparément :
+
+- Produits alimentaires
+- Livraison
+- Location de véhicules
+- Vente de véhicules
+- Pièces de rechange
+- Import & Export
+
+IMPORTANT :
+Les activités ne sont pas toutes au même niveau de disponibilité.
+
+Produits alimentaires : DISPONIBLE
+Livraison : DISPONIBLE
+Location automobile : DISPONIBLE
+Vente de véhicules : À VENIR
+Pièces de rechange : À VENIR
+Import & Export : EN ATTENTE
+
+Afficher clairement ces statuts.
+
+5. STRUCTURE DU MENU
+
+Ne limite plus le site à seulement « Boutique » et « Location ».
+
+Créer une navigation cohérente avec les activités de TRALOGISTIQUE.
+
+Par exemple :
+
+Accueil
+Produits alimentaires
+Livraison
+Location automobile
+Vente de véhicules
+Pièces de rechange
+Import & Export
+À propos
+Contact
+
+Les activités futures peuvent être affichées avec « Bientôt disponible » ou « À venir » sans permettre de fausses commandes.
+
+6. PRODUITS ALIMENTAIRES
+
+Créer une vraie expérience e-commerce.
+
+Page catalogue avec :
+- titre
+- description courte
+- catégories
+- recherche
+- filtres
+- tri
+- grille de produits
+- pagination ou chargement progressif.
+
+Ne pas mettre des blocs énormes.
+
+Les produits doivent être visuellement équilibrés.
+
+Créer une vraie fiche produit professionnelle avec :
+- galerie
+- image principale raisonnable
+- nom
+- prix
+- promotion
+- disponibilité
+- quantité
+- ajouter au panier
+- description
+- informations complémentaires
+- produits similaires.
+
+7. LIVRAISON
+
+Créer une vraie interface pour le service de livraison.
+
+Ne pas simplement mettre la livraison comme une information dans la boutique.
+
+Créer une page dédiée présentant :
+- service de livraison
+- zones desservies
+- fonctionnement
+- délais
+- tarifs ou demande de livraison
+- bouton pour demander une livraison.
+
+Prévoir également la gestion des livraisons dans l’administration.
+
+8. LOCATION AUTOMOBILE
+
+Créer une véritable expérience de location automobile.
+
+Catalogue de véhicules avec des cartes beaucoup plus professionnelles.
+
+Chaque carte :
+- grande photo mais proportionnée
+- marque/modèle
+- caractéristiques essentielles
+- prix
+- disponibilité
+- bouton « Voir le véhicule »
+- bouton « Réserver ».
+
+Créer une fiche véhicule premium avec galerie, caractéristiques, tarifs, conditions et réservation.
+
+9. VENTE DE VÉHICULES
+
+Créer une interface dédiée, même si l’activité est future.
+
+Afficher actuellement :
+« Vente de véhicules — Bientôt disponible »
+
+Créer une belle présentation permettant de préparer le futur catalogue.
+
+Ne pas mélanger cette activité avec la location.
+
+10. PIÈCES DE RECHANGE
+
+Créer une interface dédiée :
+« Pièces de rechange — Bientôt disponible »
+
+Préparer la structure pour un futur catalogue de pièces.
+
+11. IMPORT & EXPORT
+
+Créer une section dédiée :
+« Import & Export — Activité en préparation »
+
+Ne pas présenter cette activité comme disponible.
+
+Créer simplement une présentation professionnelle et éventuellement un formulaire de contact/demande d’information.
+
+12. FOOTER
+
+Créer un vrai footer professionnel avec :
+- logo
+- courte présentation
+- navigation
+- activités
+- contact
+- téléphone
+- WhatsApp
+- réseaux sociaux si disponibles
+- informations légales
+- copyright.
+
+13. RESPONSIVE
+
+Revoir toutes les pages sur :
+- mobile
+- tablette
+- desktop.
+
+Le mobile est prioritaire.
+
+Aucun élément ne doit être :
+- coupé
+- trop grand
+- mal aligné
+- collé aux bords
+- disproportionné.
+
+14. COHÉRENCE
+
+Toutes les pages doivent avoir le même langage visuel.
+
+Même :
+- couleurs
+- typographies
+- boutons
+- cartes
+- espacements
+- icônes
+- rayons de bordure
+- ombres
+- états.
+
+15. ADMINISTRATION
+
+Ne néglige pas l’administration.
+
+Le dashboard doit permettre au propriétaire de contrôler les différentes activités de l’entreprise depuis un seul endroit.
+
+Prévoir des sections pour :
+- Produits alimentaires
+- Commandes
+- Livraisons
+- Véhicules en location
+- Réservations
+- Vente de véhicules
+- Pièces de rechange
+- Import & Export
+- Clients
+- Promotions
+- Statistiques.
+
+Les activités futures peuvent être marquées « À venir ».
+
+16. IMPORTANT — VISION DU PROJET
+
+TRALOGISTIQUE appartient à UNE SEULE entreprise et à UN SEUL propriétaire.
+
+Ce n’est PAS une marketplace.
+Il n’y a PAS de vendeurs externes.
+Toutes les activités appartiennent à TRALOGISTIQUE.
+
+Le site doit commencer avec les activités disponibles mais être préparé pour l’évolution future de l’entreprise.
+
+Je veux que tu fasses maintenant une REFONTE VISUELLE COMPLÈTE.
+
+Ne modifie pas seulement quelques composants.
+
+Analyse toutes les pages existantes et réorganise les éléments lorsqu’ils sont mal positionnés.
+
+Supprime les espaces inutiles, les gros blocs disproportionnés, les cartes trop grandes et les éléments qui donnent une impression amateur.
+
+Le résultat final doit donner l’impression d’un véritable site e-commerce professionnel réalisé par une agence web/UI-UX, et non d’un prototype généré automatiquement.
+
+Avant de terminer, vérifie chaque page sur mobile et desktop et corrige les problèmes d’alignement, de taille, d’espacement et de responsive.

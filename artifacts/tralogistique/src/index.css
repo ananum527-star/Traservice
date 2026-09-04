@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Space+Mono:wght@400;700&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
@@ -41,42 +41,42 @@
 }
 
 :root {
-  /* Commerce palette: ivory, ink blue, and warm saffron accents. */
-  --background: 40 33% 96%;
-  --foreground: 213 31% 17%;
-  --border: 35 20% 84%;
-  --card: 40 50% 99%;
-  --card-foreground: 213 31% 17%;
-  --card-border: 35 22% 86%;
-  --sidebar: 213 38% 16%;
-  --sidebar-foreground: 40 43% 96%;
-  --sidebar-border: 213 25% 25%;
-  --sidebar-primary: 39 91% 56%;
-  --sidebar-primary-foreground: 213 38% 16%;
-  --sidebar-accent: 213 25% 23%;
-  --sidebar-accent-foreground: 40 43% 96%;
-  --popover: 40 50% 99%;
-  --popover-foreground: 213 31% 17%;
-  --primary: 211 54% 28%;
-  --primary-foreground: 0 0% 100%;
-  --secondary: 39 91% 56%;
-  --secondary-foreground: 213 38% 16%;
-  --muted: 38 29% 90%;
-  --muted-foreground: 212 17% 42%;
-  --accent: 12 73% 61%;
-  --accent-foreground: 0 0% 100%;
-  --destructive: 5 67% 49%;
-  --destructive-foreground: 40 50% 97%;
-  --input: 35 20% 76%;
-  --ring: 211 54% 28%;
-  --chart-1: 211 54% 28%;
-  --chart-2: 39 91% 56%;
-  --chart-3: 12 73% 61%;
-  --chart-4: 198 50% 44%;
-  --chart-5: 165 33% 39%;
+  /* Dakar atelier: blue-black ink, limestone, and a restrained terracotta signal. */
+  --background: 39 34% 95%;
+  --foreground: 211 37% 15%;
+  --border: 34 21% 82%;
+  --card: 42 43% 98%;
+  --card-foreground: 211 37% 15%;
+  --card-border: 34 21% 84%;
+  --sidebar: 211 42% 14%;
+  --sidebar-foreground: 39 38% 95%;
+  --sidebar-border: 211 28% 24%;
+  --sidebar-primary: 39 82% 61%;
+  --sidebar-primary-foreground: 211 42% 14%;
+  --sidebar-accent: 211 28% 21%;
+  --sidebar-accent-foreground: 39 38% 95%;
+  --popover: 42 43% 98%;
+  --popover-foreground: 211 37% 15%;
+  --primary: 211 46% 24%;
+  --primary-foreground: 39 38% 97%;
+  --secondary: 39 82% 61%;
+  --secondary-foreground: 211 42% 14%;
+  --muted: 37 25% 89%;
+  --muted-foreground: 211 16% 42%;
+  --accent: 14 61% 54%;
+  --accent-foreground: 39 38% 97%;
+  --destructive: 5 63% 47%;
+  --destructive-foreground: 39 38% 97%;
+  --input: 34 20% 74%;
+  --ring: 211 46% 24%;
+  --chart-1: 211 46% 24%;
+  --chart-2: 39 82% 61%;
+  --chart-3: 14 61% 54%;
+  --chart-4: 193 36% 43%;
+  --chart-5: 160 24% 39%;
   --app-font-sans: 'DM Sans', sans-serif;
-  --app-font-mono: 'Space Grotesk', monospace;
-  --radius: 0.75rem;
+  --app-font-mono: 'Space Mono', monospace;
+  --radius: 0.9rem;
   --shadow-2xs: 0 1px 2px hsl(211 35% 20% / .05);
   --shadow-xs: 0 2px 6px hsl(211 35% 20% / .06);
   --shadow-sm: 0 5px 16px hsl(211 35% 20% / .08);
@@ -115,11 +115,14 @@
   html { scroll-behavior: smooth; }
   body { @apply font-sans antialiased bg-background text-foreground; min-width: 320px; }
   button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+  button, a { cursor: pointer; }
+  button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid hsl(var(--secondary) / .45); outline-offset: 3px; }
   ::selection { background: hsl(var(--secondary)); color: hsl(var(--secondary-foreground)); }
 }
 
 @layer utilities {
-  .font-display { font-family: 'Space Grotesk', sans-serif; }
+  .font-display { font-family: 'DM Sans', sans-serif; letter-spacing: -0.025em; }
+  .font-editorial { font-family: 'Instrument Serif', Georgia, serif; }
   .text-balance { text-wrap: balance; }
   .noise { position: relative; isolation: isolate; }
   .noise::after { content: ''; position: fixed; inset: 0; pointer-events: none; opacity: .035; z-index: 50; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.42'/%3E%3C/svg%3E"); mix-blend-mode: multiply; }
