@@ -1,0 +1,204 @@
+Crée un prototype professionnel, moderne et responsive du site web de l’entreprise sénégalaise « TRALOGISTIQUE ». L’entreprise appartient à un seul propriétaire et développe progressivement plusieurs activités.
+
+ACTIVITÉS ACTUELLES :
+- Vente de produits alimentaires
+- Livraison
+- Location automobile
+
+ACTIVITÉS FUTURES :
+- Vente de véhicules
+- Vente de pièces de rechange
+- Import-export (actuellement en attente)
+
+IMPORTANT : ce n’est PAS une marketplace et il n’y a PAS de vendeurs externes. Tous les produits et services appartiennent à la même entreprise. Le site doit être conçu pour évoluer progressivement et devenir à terme la couche de contrôle et de coordination de toute l’entreprise.
+
+Interface entièrement en français, prix en FCFA, design professionnel, moderne, élégant et responsive, avec priorité au mobile.
+
+NE CRÉE PAS uniquement une landing page. Crée un vrai prototype navigable et interactif avec site public, espace client et espace administrateur. Utilise des données fictives réalistes. Les paiements réels ne sont pas nécessaires dans cette version.
+
+IDENTITÉ
+Nom : TRALOGISTIQUE
+Positionnement : Commerce • Logistique • Transport
+Prévoir une identité visuelle facilement modifiable.
+
+SITE PUBLIC
+
+ACCUEIL
+Créer une homepage claire et professionnelle comprenant :
+- header avec logo, menu, recherche, connexion et panier
+- hero présentant clairement TRALOGISTIQUE
+- boutons « Acheter nos produits » et « Louer une voiture »
+- présentation des activités
+- catégories alimentaires
+- produits populaires
+- véhicules disponibles
+- service de livraison
+- avantages
+- fonctionnement
+- témoignages
+- contact
+- bouton WhatsApp
+- footer.
+
+Le visiteur doit comprendre immédiatement les activités actuellement disponibles.
+
+VENTE DE PRODUITS ALIMENTAIRES
+Créer une vraie boutique permettant de vendre tous types de produits alimentaires.
+
+Créer des catégories modifiables depuis l’administration.
+Exemples : riz, huile, boissons, épicerie, produits laitiers, fruits, légumes, produits locaux, surgelés, etc.
+
+Chaque produit contient :
+photo, nom, catégorie, description, prix FCFA, unité, stock, disponibilité et promotion éventuelle.
+
+Créer :
+- recherche
+- filtres
+- tri
+- fiche produit
+- quantité
+- panier
+- produits similaires.
+
+PANIER ET COMMANDES
+Le panier doit fonctionner :
+- ajouter
+- supprimer
+- modifier quantité
+- sous-total
+- frais de livraison
+- total.
+
+Créer une commande avec :
+nom, téléphone, adresse, quartier, ville et informations complémentaires.
+
+Prévoir :
+- paiement à la livraison
+- Wave
+- Orange Money
+
+Pour le prototype, simuler les paiements.
+
+Statuts :
+Nouvelle, Confirmée, Préparation, Livraison, Livrée, Annulée.
+
+LIVRAISON
+Créer une fonctionnalité de livraison liée aux commandes.
+Permettre de gérer :
+adresse, téléphone, commande, frais et statut.
+
+Prévoir les statuts :
+À préparer, En livraison, Livrée, Annulée.
+
+LOCATION AUTOMOBILE
+Créer une section « Location de voitures » pour les véhicules de l’entreprise.
+
+Chaque véhicule contient :
+photos, marque, modèle, année, catégorie, places, transmission, carburant, climatisation, tarif, conditions et disponibilité.
+
+Statuts :
+Disponible, Réservé, En location, Maintenance.
+
+Créer :
+- recherche
+- filtres
+- fiche véhicule
+- galerie photos
+- caractéristiques
+- tarifs
+- conditions
+- disponibilité
+- bouton « Réserver ».
+
+Créer une demande de location avec :
+date/heure de départ, date/heure de retour, lieu de récupération, lieu de retour et coordonnées du client.
+
+Calculer automatiquement un prix estimatif selon la durée.
+Afficher une confirmation avec numéro de réservation.
+
+ESPACE CLIENT
+Créer un dashboard client avec :
+- profil
+- commandes
+- détails des commandes
+- locations
+- détails des locations
+- historique
+- notifications
+- paramètres.
+
+ADMINISTRATION
+Créer un véritable espace /admin réservé au propriétaire.
+
+Dashboard central avec :
+- chiffre d’affaires
+- ventes
+- commandes
+- livraisons
+- locations
+- véhicules disponibles
+- clients
+- activités récentes
+- statistiques simples.
+
+Créer les gestions suivantes :
+
+PRODUITS
+Ajouter, modifier, supprimer, photos, catégories, prix, stock, promotions, disponibilité.
+
+COMMANDES
+Liste, recherche, filtres, détails client, produits commandés, montant et changement de statut.
+
+LIVRAISONS
+Liste, commande associée, client, adresse, frais et changement de statut.
+
+VÉHICULES
+Ajouter, modifier, supprimer, photos, caractéristiques, tarifs, disponibilité et maintenance.
+
+LOCATIONS
+Liste des réservations, calendrier, détails, client, véhicule, dates, prix et statut.
+
+CLIENTS
+Liste, recherche, coordonnées et historique.
+
+PROMOTIONS
+Créer des réductions et promotions sur les produits.
+
+ACTIVITÉS FUTURES
+Préparer dans l’administration des rubriques désactivées ou « Bientôt disponible » pour :
+- Vente de véhicules
+- Pièces de rechange
+- Import-export
+
+VENTE DE VÉHICULES : prévoir une future structure avec catalogue, photos, caractéristiques, kilométrage, prix et demande d’information.
+
+PIÈCES DE RECHANGE : prévoir une future structure avec catégories, références, compatibilité, prix, stock et commande.
+
+IMPORT-EXPORT : ne pas présenter cette activité comme disponible actuellement. Prévoir uniquement la possibilité de l’ajouter plus tard.
+
+VISION DU SYSTÈME
+Le site doit pouvoir évoluer progressivement pour devenir le centre de contrôle et de coordination de TRALOGISTIQUE : commerce, livraison, automobile, logistique et import-export.
+
+Ne crée pas de marketplace, de comptes vendeurs externes ou de boutiques indépendantes.
+
+DESIGN
+Design premium, professionnel, sobre et rassurant.
+Interface claire, peu chargée, excellente hiérarchie visuelle.
+Belles cartes produits et véhicules.
+Badges pour stock, promotion et disponibilité.
+Responsive mobile/tablette/desktop.
+Animations légères.
+Créer loading, empty states, erreurs, confirmations et notifications.
+
+DONNÉES
+Utiliser suffisamment de données fictives : produits, catégories, véhicules, commandes, locations, livraisons et clients afin de rendre le prototype crédible.
+
+TESTER LES PARCOURS :
+Accueil → produit → panier → commande → confirmation.
+Accueil → voiture → réservation → confirmation.
+Connexion → espace client.
+Admin → dashboard → produits → commandes → livraisons → véhicules → locations → clients.
+
+Vérifie les routes, boutons et interactions principales et corrige les erreurs avant de terminer.
+
+Le résultat doit être suffisamment professionnel pour être présenté au propriétaire de TRALOGISTIQUE et servir de base à la future plateforme de gestion de l’entreprise.

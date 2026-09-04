@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "TRALOGISTIQUE"
+description = "Prototype web responsive de TRALOGISTIQUE, une entreprise sénégalaise qui réunit commerce alimentaire, livraison et location automobile dans une expérience unique, avec espace client et administration propriétaire."
+version = "1.0.0"
+id = "artifacts/tralogistique"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19686
+
+[services.development]
+run = "pnpm --filter @workspace/tralogistique run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/tralogistique", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/tralogistique/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19686"
+BASE_PATH = "/"
