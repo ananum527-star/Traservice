@@ -120,6 +120,23 @@
   ::selection { background: hsl(var(--secondary)); color: hsl(var(--secondary-foreground)); }
 }
 
+.admin-shell {
+  --sidebar: 211 72% 25%;
+  --sidebar-foreground: 210 35% 98%;
+  --sidebar-border: 211 55% 34%;
+  --sidebar-primary: 196 92% 60%;
+  --sidebar-primary-foreground: 211 72% 18%;
+  --sidebar-accent: 211 58% 33%;
+  --sidebar-accent-foreground: 210 35% 98%;
+  --primary: 211 72% 39%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 196 92% 60%;
+  --secondary-foreground: 211 72% 18%;
+  --accent: 205 75% 48%;
+  --accent-foreground: 0 0% 100%;
+  --ring: 196 92% 50%;
+}
+
 @layer utilities {
   .font-display { font-family: 'DM Sans', sans-serif; letter-spacing: -0.025em; }
   .font-editorial { font-family: 'Instrument Serif', Georgia, serif; }
